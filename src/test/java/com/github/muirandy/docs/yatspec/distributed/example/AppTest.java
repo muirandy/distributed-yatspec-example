@@ -1,7 +1,9 @@
 package com.github.muirandy.docs.yatspec.distributed.example;
 
-import com.github.muirandy.docs.yatspec.distributed.DiagramLogger;
-import com.github.muirandy.docs.yatspec.distributed.SequenceDiagramFacade;
+import com.github.muirandy.docs.living.api.DiagramLogger;
+import com.github.muirandy.docs.living.api.Log;
+import com.github.muirandy.docs.living.api.SequenceDiagramFacade;
+import com.github.muirandy.docs.yatspec.distributed.YatspecSequenceDiagramFacade;
 import com.github.muirandy.docs.yatspec.distributed.log.kafka.KafkaConfiguration;
 import com.github.muirandy.docs.yatspec.distributed.log.kafka.KafkaLogger;
 import io.quarkus.test.common.QuarkusTestResource;
